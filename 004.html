@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>004 · 事件型方案 · 三选一 · 待挑 · 拍摄卡</title>
+<style>
+  :root { --ink:#1b1b1b; --sub:#6b6b6b; --line:#e3e3e3; --accent:#1f6f5c; --paper:#faf9f7; --soft:#f2f8f5; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:28px 20px 60px; background:var(--paper); color:var(--ink);
+    font-family:"Microsoft YaHei","PingFang SC",system-ui,sans-serif; line-height:1.75; }
+  .wrap { max-width:880px; margin:0 auto; }
+  header { border-bottom:3px solid var(--ink); padding-bottom:14px; margin-bottom:22px; }
+  h1 { font-size:26px; margin:0 0 6px; letter-spacing:.5px; }
+  .meta { color:var(--sub); font-size:13px; }
+  .meta span { margin-right:14px; }
+  .banner { background:#e9f5ef; border:1px solid #b7dcc9; border-left:5px solid var(--accent);
+    border-radius:6px; padding:14px 18px; font-size:14px; color:#204a3d; margin:0 0 26px; }
+  .banner b { color:var(--accent); }
+  .key { background:#fff8e8; border:1px dashed #d9bd77; border-radius:6px; padding:12px 16px;
+    font-size:14px; color:#5a4a1a; margin:0 0 26px; }
+  h2 { font-size:19px; letter-spacing:.5px; color:var(--accent); margin:38px 0 4px;
+    padding:8px 12px; background:var(--soft); border-left:5px solid var(--accent); }
+  .tag { font-size:12px; color:var(--sub); font-weight:400; letter-spacing:0; margin-left:8px; }
+  h3 { font-size:14px; letter-spacing:1px; color:var(--sub); margin:18px 0 6px; }
+  .card { background:#fff; border:1px solid var(--line); border-radius:6px; padding:18px 24px; margin-top:10px; }
+  ul { padding-left:20px; margin:6px 0; }
+  li { margin-bottom:7px; font-size:14px; }
+  .cue { background:#fffbe8; border-left:3px solid #e0b34a; padding:9px 13px; font-size:13px;
+    color:#5a4a1a; margin-top:12px; }
+  .blank { background:#f4f4f2; border:1px dashed #bbb; border-radius:5px; padding:10px 14px;
+    font-size:13px; color:#555; margin-top:10px; }
+  table { width:100%; border-collapse:collapse; background:#fff; font-size:13px; margin-top:12px; }
+  th,td { border:1px solid var(--line); padding:8px 10px; text-align:left; vertical-align:top; }
+  th { background:#f1efec; font-weight:600; }
+  td:first-child { white-space:nowrap; color:var(--sub); width:32%; }
+  .warn { color:#b5342a; font-weight:700; }
+  .ok { color:#1f6f5c; font-weight:700; }
+  .note { font-size:13px; color:var(--sub); background:#fff; border:1px dashed var(--line);
+    border-radius:6px; padding:12px 16px; margin-top:12px; }
+  footer { margin-top:44px; padding-top:14px; border-top:1px solid var(--line); color:var(--sub); font-size:12px; }
+  @media (max-width:700px){ .meta span{display:inline-block;margin-bottom:4px;} }
+  @media print { body{background:#fff; padding:0;} .card{page-break-inside:avoid;} }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>004 · 事件型方案（三选一）</h1>
+  <div class="meta">
+    <span>熊明 / 中京电力</span><span>草稿 · 未定稿</span><span>2026-11-08</span><span>助理 POV · 零旁白 · 一镜到底</span>
+  </div>
+</header>
+
+<div class="banner">
+  <b>这一页不是拍摄卡，是给你挑方向的。</b><br>
+  按你说的「事件 → 情绪 → 文案」拆：先立戏剧条件 → 再定只戳一个情绪 → 最后翻译成镜头和字幕。<br>
+  挑中一条告诉我 → 我补齐 Gate B 事实 → 出分镜和拍摄卡 → 再传上来替换这一页。<br>
+  <b>现在别开机拍。</b>全文与出处表见本地 <b>004_事件型方案_三选一.md</b>。
+</div>
+
+<div class="key">
+  <b>最重要的一句：这一页没有逐字稿，是故意的。</b><br>
+  003 那三条是写好的口播稿，熊明照着念。事件型不行——事件库红线写死了「事件是设计出来的，但反应必须是真的」「严禁为事件编造对话 / 反转」。熊明当场说什么、别人怎么回、笑没笑场，得现场真发生；我提前写下来就是造假。<br>
+  所以我交付的是<b>拍摄作战单</b>：<b>事件</b>＝真实前因 + 人为设计的戏剧条件 + 助理开机第一句（这句可以设计）+ 追更钩子；<b>情绪</b>＝波点落在哪一秒 + 主功能四选一（一条只能选一个）+ 不给结论；<b>文案</b>＝「说画面」的特写镜头清单 + 标题 / 封面 / 开头 + 字幕卡只放真实金句。<b>熊明的台词全部留空</b>。「事实锚点」是前采里确实发生过的事，用来判断现场拍到没有，不是台词、不许照念。
+</div>
+
+<h2>一 · 你们给打个分，我像不像干电力的<span class="tag">人设型 · 扩圈 · 🟢 现在就能拍 · 主推</span></h2>
+<div class="card">
+  <h3>事件</h3>
+  <ul>
+    <li><b>真实前因</b>：父亲 9.21 原话「你这形象不像干电力的」；熊明现 200 斤（前采 958 行 220 斤 → 现 200 斤）；父亲点名核心优势＝<b>亲和力</b>。</li>
+    <li><b>设计的戏剧条件</b>：助理拿一张纸 / 手机备忘录，现场找 3 个人（工人 / 资料部同事 / 来办事的人）各打一个分——「0 到 10，他像不像干电力的？」<b>不提前打招呼、不排练、不给标准答案</b>。</li>
+    <li><b>开机第一句（助理，可设计）</b>：「熊总，我找了三个人给你打分，就一个问题——你像不像干电力的。敢不敢看？」</li>
+    <li><b>追更钩子</b>（字幕卡）：「我爸那句『不像干电力的』，下集让他自己看这条」→ 父亲不出镜，字幕 + 熊明转述。</li>
+    <li class="warn">红线：不曝项目名 / 业主；打分的人出镜需口头授权；不剪恶意丑化；不提「少帅」。</li>
+  </ul>
+  <div class="blank"><b>熊明的反应：现场真拍，台词留空。</b>允许他嘴硬、笑场、追着问「谁给我打这么低」。<br>事实锚点（不是台词）：确实被父亲这么说过；日常在项目部 / 工地；200 斤他自己公开讲过。</div>
+  <h3>情绪</h3>
+  <ul>
+    <li><b>波点</b>：第三个人打出分数、镜头切回熊明脸那一秒——观众自己先笑，然后才反应过来「这人其实一直在工地上」。</li>
+    <li><b>主功能唯一</b>：人设型 / 扩圈。不塞专业、不塞资质、不塞「我们多靠谱」。</li>
+    <li><b>感受交给观众</b>：不给「他其实很专业」这类结论；不靠 BGM 煽情，不用旁白补「这就是亲和力」。</li>
+    <li>风险：打分容易滑向扮丑，剪辑守住「憨憨可爱」底色。</li>
+  </ul>
+  <h3>文案（说画面）</h3>
+  <ul>
+    <li><b>写实镜头（动词）</b>：笔尖落在纸上 → 三个人各自犹豫的两三秒 → 熊明伸手去够那张纸 → 他看完抬头。</li>
+    <li><b>写意镜头（情绪词）</b>：安全帽搁在桌角、袖口上的灰 / 工地围挡一角（空镜，不配解说）。</li>
+    <li><b>A 主推</b>「我找了三个人，给我老板打分」｜封面「你像不像干电力的」｜开头即助理举纸那一下</li>
+    <li>B「我爸说我不像干电力的」｜封面「不像」　｜　C「0 到 10 分，他们给我打了几分」｜封面「?」</li>
+    <li>推荐 A：只报事件不给结论，分数是观众自己想看的钩子。字幕卡只放父亲真实金句、真实分数、追更钩子。</li>
+  </ul>
+  <div class="cue">不加总结句、不加金句、不加「不是…而是…」。</div>
+</div>
+
+<h2>二 · 这行应该没事吧<span class="tag">信任型 · 转化 · 🟡 等一份可脱敏的合同 / 标书 · 需 Gate B</span></h2>
+<div class="card">
+  <h3>事件</h3>
+  <ul>
+    <li><b>真实前因</b>：前采「合同我签、章我盖、我兜底」「一个字不对都不行」；专款专用 / 零官司是父亲 9.29 口径（一直都有、从不拆借，<span class="warn">禁「被坑后立规矩」</span>）；10.11 对话 L982–1045 做标书核清单、对图纸、挑风险点。</li>
+    <li><b>设计的戏剧条件</b>：助理从一叠脱敏样本里抽出一份，手指按在某一行模糊表述上，问一句「这行……应该没事吧？」——不指给他看是哪一行、不提醒答案。熊明自己逐字往下读。</li>
+    <li><b>开机第一句（助理，可设计）</b>：就那一句，问完闭嘴，镜头别切。</li>
+    <li><b>追更钩子</b>：「上回被坑那次，扣 1 再讲」<span class="warn">🔴 本人说「不好讲」，发前必须熊总 / 父亲点头，默认不启用</span>。</li>
+    <li class="warn">红线：2.6 亿严禁；不点名甲方 / 坑他的公司；不亮金额 / 规模；样本必须逐帧脱敏（不露造价、业主名、编号、章）；零官司不炫；不碰政府 / 政协 / 关系。</li>
+  </ul>
+  <div class="blank"><b>熊明的反应：现场真拍，台词留空。</b>停不停、拿不拿笔、讲不讲「这得写死」，全是真的。<br>事实锚点（不是台词）：工期 / 变更 / 验收三处较真；章他管、合同他签；专款专用从一开始就守着。</div>
+  <h3>情绪</h3>
+  <ul>
+    <li><b>波点</b>：他手指停在某一行、抬眼那半秒——观众跟着紧张「到底哪不对」。</li>
+    <li><b>主功能唯一</b>：信任型 / 转化。不塞教学（不讲「签合同要看三处」）、不塞履历。</li>
+    <li>不补「所以他四年零官司」；不加旁白解释他为什么较真。</li>
+    <li>风险：一旦他开始列 1 / 2 / 3 就跑偏成「教知识」，剪辑砍掉。</li>
+  </ul>
+  <h3>文案（说画面）</h3>
+  <ul>
+    <li><b>写实</b>：手指按住那一行 → 纸面轻微推近 → 他拿笔 / 没拿笔 → 翻到下一页。<b>写意</b>：桌上那枚章、窗外项目部（空镜，无解说）。</li>
+    <li>A「有份合同，我翻到第三页就不想签了」← 与《四年没打过一场官司》主推标题撞，两条都拍需换一条</li>
+    <li><b>B 主推</b>「助理问我『这行没事吧』，我停住了」｜封面「这行没事吧」　｜　C「一个字不对，我就不签」｜封面「一个字」</li>
+    <li>推荐 B：和《四年没打过一场官司》错开，那条留着当独立作品。字幕卡只放脱敏后的真实条款位置 + 追更钩子（待确认）。</li>
+  </ul>
+  <div class="cue">Gate B 待确认：① 有没有可拍、可脱敏、不涉及真实在履约项目的样本？② 熊明愿不愿在镜头前逐字读？③ 那句由谁问——助理还是资料部同事？</div>
+</div>
+
+<h2>三 · 800 块，我识了一个辅警<span class="tag">信任型 · 识人 / 亲和力 · 🟢 真实强事件 · 需一次出镜授权</span></h2>
+<div class="card">
+  <h3>事件</h3>
+  <ul>
+    <li><b>真实前因</b>：前采 124–136 行（事件库 D1）：留美回来聚会，熊明给陌生兄弟垫了 800 块，后来发现对方是辅警，对方主动跟着他干了。<b>反转是真实发生的，不是编的</b>。</li>
+    <li><b>设计的戏剧条件</b>：助理翻出旧照 / 旧聊天（或就坐下来），「你咋认识你那帮兄弟的？」——只起个头，不提示「后来发现是辅警」这个反转，让他自己讲到那儿。</li>
+    <li><b>开机第一句（助理，可设计）</b>：「熊总，你身边那几个人，最早是怎么认识的？」</li>
+    <li><b>追更钩子</b>：「我这人看人准不准？下集让他说」→ 那位兄弟出镜待确认；不愿就只用熊明转述。</li>
+    <li class="warn">红线：不夸大、不补细节、不编对话；不提「关系」；不点名单位；不往「识人术 / 生意经」升维。</li>
+  </ul>
+  <div class="blank"><b>熊明的反应：现场真拍，台词留空。</b>讲到「后来才知道他是辅警」那一句，镜头别切、别配乐、别加花字。<br>事实锚点（不是台词）：800 块、留美回来、聚会、对方是辅警、后来跟着干——五点都在前采里。</div>
+  <h3>情绪</h3>
+  <ul>
+    <li><b>波点</b>：「后来才知道他是辅警」出口那一秒——观众自己把「随手垫了 800 块」和「人家后来跟着他干」连起来。</li>
+    <li><b>主功能唯一</b>：信任型（识人 / 亲和力）；若做成系列再转养成型，单条不混。</li>
+    <li><b>绝不补</b>「所以看人准很重要」「这就是我的人品」；不喊金句。</li>
+    <li>风险：这是回忆不是当天现场。用现在的办公 / 车上对话 + 少量空镜承载即可，<b>不要摆拍还原当年聚会</b>。</li>
+  </ul>
+  <h3>文案（说画面）</h3>
+  <ul>
+    <li><b>写实</b>：他伸手去拿手机翻旧照 / 没翻到、挠头 → 讲到那一句时的手 → 助理没插话。<b>写意</b>：车窗外 / 桌上两杯茶（空镜，无解说）。</li>
+    <li><b>A 主推</b>「我垫了 800 块，后来才知道他是辅警」｜封面「800」｜开头即「你咋认识你那帮兄弟的」</li>
+    <li>B「聚会上一陌生兄弟，我替他垫了 800」｜封面「800 块」　｜　C「他后来跟着我干了」｜封面「后来」</li>
+    <li>推荐 A：只报事件，把反转留在视频里。字幕卡只放 800、辅警、追更钩子。</li>
+  </ul>
+  <div class="cue">Gate B 待确认：① 垫 800 块这事现在还愿不愿公开讲？② 那位兄弟能不能出镜 / 被提及？③ 旧照 / 旧聊天有没有、能不能脱敏拍？</div>
+</div>
+
+<h2>四 · 压着没做的那条（去重）</h2>
+<div class="card">
+  <ul>
+    <li>上次的钩子型方向 <b>《这活你咋看出来不行》</b>（项目部巡检，助理当场考他）与 <b>001《老板为什么还在现场》</b> 同属「去现场 / 在工地」母题。按铁律「同质化即打回」，<b>先压着</b>，等 001 发了、数据回来再定。</li>
+    <li><b>003 三条旁白候选</b>与本页是两条路线（旁白口播 vs 事件 POV），不冲突，但别同时发；003 的 B《为什么我们这边的款不拖》仍与挂起的 v2 稿「付款」同题。</li>
+  </ul>
+</div>
+
+<h2>五 · 事实出处表</h2>
+<table>
+  <tr><th>用到的事实</th><th>出处</th><th>状态</th></tr>
+  <tr><td>父亲「你这形象不像干电力的」</td><td>事件库 A1 / 9.21 前采</td><td class="ok">已确认</td></tr>
+  <tr><td>熊明现 200 斤（前采 220）</td><td>前采 958 行 / 事件库 A1</td><td class="ok">已确认</td></tr>
+  <tr><td>核心优势＝亲和力、扬长避短</td><td>父亲 9.21 口径 / 事件库 0.4</td><td class="ok">已确认</td></tr>
+  <tr><td>「合同我签、章我盖、我兜底」</td><td>事件库 B1 / 前采</td><td class="ok">已确认</td></tr>
+  <tr><td>专款专用＝一直都有、从不拆借</td><td>父亲 9.29 口径</td><td class="ok">已确认；禁被坑后立规矩</td></tr>
+  <tr><td>四年零官司</td><td>前采 2383 / 2416 行 / 事件库 B5</td><td class="ok">已确认，不炫</td></tr>
+  <tr><td>标书核清单 / 对图纸 / 挑风险点</td><td>10.11 对话 L982–1045</td><td class="ok">已确认</td></tr>
+  <tr><td>800 块识辅警</td><td>前采 124–136 行 / 事件库 D1</td><td class="ok">已确认真实</td></tr>
+  <tr><td>被坑细节</td><td>前采 166–175 行 / 事件库 B6</td><td class="warn">🔴 本人说「不好讲」，默认不启用</td></tr>
+  <tr><td>2.6 亿 / 挂靠 / 政府政协 / 项目业主</td><td>事件库 0.4 红线</td><td class="warn">❌ 一票否决</td></tr>
+</table>
+
+<h2>六 · 自检</h2>
+<div class="card">
+  <ul>
+    <li><b>红线</b>：2.6 亿 / 挂靠 / 政府政协 / 项目业主 / 少帅 / 父亲出镜——全片无；被坑细节默认关闭。</li>
+    <li><b>零编造</b>：三条熊明台词全部留空，只给可设计的助理开机句 + 已确认事实锚点；无预设反转、无预设对话。</li>
+    <li><b>同质化</b>：与 001 / 002 / 003 / 已发布 3:20 长片逐条比对，撞题的两条已标出并压着。</li>
+    <li><b>质检八查</b>：本页是作战单不是成稿，节奏 / 多主题待成片 SRT 再跑 Gate C；此处只过「红线 + 编造 + 去重」三关。</li>
+    <li><b>AI 味</b>：无「不是 X 是 Y」、无段段金句、无升维结尾、无排比；标题全走「只报事件不给结论」。</li>
+  </ul>
+  <div class="note"><b>课件核查</b>：`H:\allin课件\后浪\后浪课程` 的 103 个 mp4 + 36 个 m4a 全是音视频，没有一份文本叫《事件-情绪-文案》；10.29 白板写的是「直播 / 流程」「线索 / 选 / 提 / 转化 / 交付 / 返修 / 粘性」那类运营流程。三块链路散在课件和 9 月事件库 / 手册 / 创意升级建议里，我按你给的名字对齐了。<b>你若有那页课件截图 / 讲义，发我校一次。</b></div>
+</div>
+
+<footer>内部资料 · 请勿外传　｜　挑中一条 → 补 Gate B → 出分镜 / 拍摄卡 → 重生成 index.html → 上传替换本页　｜　<b>现在别开机拍</b></footer>
+</div>
+</body>
+</html>
